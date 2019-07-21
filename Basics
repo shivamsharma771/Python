@@ -1,0 +1,26 @@
+python:
+x,y =(1,2)
+now it is use it as a funcation.
+can add multiple variables.
+nmber of parameters should be same.
+---------------------------------
+type() : can tell the type of the variable
+example
+x=5
+type(x): int
+type(-6): int
+type(7.5): float
+int(): transforms a variable into a interger.
+ex: int(4.7) =4 and it converts it into a integer.
+float(5) =5.0 and convert it into a float.  
+--------------------------------------------
+Boolean: True or False
+also keep in mind that pythpn is case sensative.
+example: if you write x3 = True this is acceptable however x3=true is not.
+Now type(x3) :bool that means boolean.
+-----------------------------------------------
+Strings:
+if the values that you are providing are not integer then quotes need to be used. and inorder to convert and use it with a string: str
+function need to be used.
+
+print str(x)+
