@@ -1,0 +1,41 @@
+string slicing :
+it allows to grab a subsection of multiple characters - A slice of string
+Syntax: [start:stop:step] --> [1:3:5]
+explanation: start is the starting index for starting the slice, stop is the index that you go upto but not include, 
+step is the size of jump that you will take.
+
+repetation of strings:
+
+z*10=zzzzzzzzz
+string concatination: x+" this is string"
+where x is variable containing strings.
+
+x='some string'
+x. will give all the list of methods that can be applies
+eg:
+x.upper()
+it doesnt affect the orignal string if you want it to affect x , you need to assign it 
+to s after that.
+x.split(): will split it in form of a  list
+x.split(alphabelt) it will split on the basis of that alphabet.
+-----------------------------------------------------------------------------------
+
+Multiple ways to format strings: 
+string interpolation: stick a variable into a string
+
+.format()
+f-strings
+syntax:
+print('this is  a string {}'.format('inserted'))
+sol:this is a string inserted  
+
+.format will concatinate the string the provided manner:
+
+print('the {} {} {}' .format('fox','brown','quick'))
+SOL: the fox brown quick.
+ you can also define its sequence:
+ 
+ 
+print('the {2} {1} 0}' .format('fox','brown','quick'))
+SOL: the quick brown fox.
+
