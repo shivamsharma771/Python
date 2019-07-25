@@ -1,0 +1,19 @@
+Float formatting:
+
+Syntax:
+{value:width.precision f}"
+
+precision defines the number of decimal places till
+we want our results and make it to round number till that point.
+
+width: how long you want to result to be.
+
+
+result = 100/777
+print('the result {r:1.2}".format(r=result))
+----------------------------------------------------------------------------------------
+f ---->
+fstring
+f'  -------------> formatting string literals.
+name="shivam"
+print(f'"this is my name{name})" 
