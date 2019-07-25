@@ -1,0 +1,7 @@
+Dictionaries:
+Dictionaries are like lists but instead of indexes it has a key value which can be use to reterive it. 
+sorting is not possible in dictionaries as it conatins a key value t reterive its data.
+
+DIC ={'key1': 'value', 'key2': 'value', ...... 'key n': 'value'}
+
+A dictionary can hold lists and other dictionaries also.
