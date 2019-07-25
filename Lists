@@ -1,0 +1,22 @@
+List contains elements of different data types and same data types:
+
+synatx: A=['newting',2,2.33]
+It contains many datatypes in one data structure.
+
+I also supports slicing same in case of strings.
+'Slicingis also supported:
+my_list[:1] or
+[1:] start with the element at index 1 and goes upto end of string.
+
+
+
+
+
+Some of the operations that can be used in a list are as under:
+
+my_list.reverse()
+my_list.append(5)
+my_list.sort()
+my_list.pop()
+put value in paranthases to 
+apply operation on that particular element.
