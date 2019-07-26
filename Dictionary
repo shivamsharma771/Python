@@ -5,3 +5,64 @@ sorting is not possible in dictionaries as it conatins a key value t reterive it
 DIC ={'key1': 'value', 'key2': 'value', ...... 'key n': 'value'}
 
 A dictionary can hold lists and other dictionaries also.
+
+
+Syntax:
+
+Price_lookup = {'apple':2.99,'oranges': 3.00,'milk':5.30}
+
+call it:
+price_lookup['milk']
+---> 5.30
+Dictionaries are flexible:
+Synatx:
+
+d={'k1':123,'k2':[0,1,2,3],'k3':{'inskey':100}}
+d['k3']
+--> {'inskey':100}
+
+d['k3']['inskey']
+--> 100
+
+
+--------------------------------------
+
+example:
+
+d={'key1': ['a','b','c','d']}
+
+to make c an upper case:
+---> d['key1'][2].uppper()
+ ------------------------------
+ 
+ Add a new value in dictionary:
+ 
+ d['k3'] =300
+ will add a new key
+ 
+ ------------------------------
+ 
+ d['k1']= 56
+ assiging key value.
+ 
+ ---------------------------------
+ to see all the keys:
+ 
+ d.keys()
+ to see all values:
+ d.values()
+ see all pairings
+ d.items()
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
