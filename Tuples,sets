@@ -1,0 +1,21 @@
+Tuples:
+tuples are immutable.
+
+that means once to assign some values to tuples it can never be change then.
+
+d= (1,2,3,4)
+d[0] --->1
+-------------------------------------------
+sets:
+sets are the unordered collections or unique elements
+myset = set ()
+myset.add(1)  --- add method
+  set should have unique values
+  best way to make a set:
+  my_list=[1,1,1,2,2,3,3,3,3]
+  
+  ---------------------------------------
+  boolean  will give you true or false.
+  case sensative:
+  
+  True and False
