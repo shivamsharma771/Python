@@ -1,0 +1,119 @@
+Input output basics.
+
+Files:
+audio files, excel documents and many more.But libraries are also required.
+steps to create a test file using jupiter notebooks.
+
+Steps:
+
+Write a file (make a new file):
+
+%%writefile myfile.txt
+myfile= open('myfile.txt')
+
+to know where is your jupter note book: pwd
+
+now how to read that file:
+
+myfile= open('myfile.txt')
+myfile.read()
+
+but if you  use myfile.read() you will get an empty space because 
+it will take the cursor to end of the file so inorder to  
+reset it again use the below command:
+
+
+myfile.seek(0)<--
+
+it will again take the cursor to the start of the file.
+
+then we can use the myfile.read() again.
+
+sometimes it is helpful in lists.
+ if you want to read it line by line then:
+  myfile.readline()
+  
+  if you wan to open a file that is present at any location in your system.
+  but you need to complete file path 
+  
+  For example: (c:\\user\\ so on just the diff is that you need to pace \\ instead of\
+  
+  Beat practises.:
+  once you open a file you need to close it also:
+  
+  myfile.close()
+  if you dont want to close it manually:
+   
+with open('myfile.txt') as my_new_file:
+
+content =my_new_file.read()
+
+writing or overwritying the file:
+
+with open('myfile.txt and then we can shift+tab to get its documentation.)
+
+
+with open('myfile.txt',mode='r' ) as myfile:
+    
+    Contents = myfile.read()
+Successful.
+
+with open('myfile.txt',mode='w' ) as myfile:
+    
+    Contents = myfile.read()
+    
+    it show error because of the permissions.
+    
+    So for that wen need to follow the following steps:
+    
+    
+    
+    myfile=(open('myfile.txt'))
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    misc:
+    mode=
+    r
+    w
+    a-append
+    r+ reading and writing
+    w+ writing and reading  overwrites an exixting file or create a new file.
+    ---------
+'r'       open for reading (default)
+'w'       open for writing, truncating the file first
+'x'       create a new file and open it for writing
+'a'       open for writing, appending to the end of the file if it exists
+'b'       binary mode
+'t'       text mode (default)
+'+'       open a disk file for updating (reading and writing)
+'U'       universal newline mode (deprecated)
+========= ====================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
