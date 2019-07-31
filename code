@@ -1,0 +1,8 @@
+a=[1,8,12,16,45,56]
+b=[2,5,8,9,14,25,41]
+number =31
+dicti = {}
+for c in a:
+    for d in b:
+        e= c+d-number
+        print (e)
