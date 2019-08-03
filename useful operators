@@ -1,0 +1,71 @@
+Operators:
+1. range()
+
+syntax: for num in range (10):
+                   print(num)  
+
+it will print every number till 10 but will not include 10.
+range can also be specified. (3-9)
+(0,11,3) 3 is for step
+same as string slicing
+list(range(0,11,2)
+because (range(0,11,2) will print (range(0,11,2) not the solution.
+
+2.enumerate: this can take any iteraable object and will give its indexing anf 
+
+index_count =0
+
+for letters in 'abcde':
+  print('at index {} the letter is {}'.format(index_count,letter))
+  index_count =  index_count+1
+  
+  --------------------------------------------------------------------
+  print('at index {} the letter is {}'.format(index_count,letters))
+  ---------------------------------------------------------------------
+  
+  in order to complete the above we can you the below synatx also:
+  
+  index_count=0
+  word ='abcde'
+  
+  for  letter in word:
+      print(word[index_count])
+       index_count +=1
+     ------------------------------------------------------------------  
+    2.enumerate 
+       syntax:
+       
+       word = "abcde"
+
+for item in enumerate(word):
+    print(item)
+    
+    index in form of tuples
+    -----------------------------------------------------------------------
+    
+    Zip function:
+    it can zip two lists together.
+    example:
+    
+    list1=[1,2,3,4]
+    list2=['a','b','c','d','e']
+zip(list1.list2)
+--->  zip at 2xe0skshi(index)
+for item in zip(list1.list2)
+it will create tuples:
+
+(1,'a')(2,'b') so on....
+
+for unpacking:
+
+for a,b,c in zip(list1,list2):
+print(b)
+
+this will unpack it:
+
+for a,b in zip(list1,list2):
+    print(b)
+    
+    
+    
+    
