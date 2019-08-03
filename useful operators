@@ -66,6 +66,26 @@ this will unpack it:
 for a,b in zip(list1,list2):
     print(b)
     
+    -------------------------------------------------------------------
+    use of in :
+ can be use any where 
+ 
+ a in'a wiorld'
+ 
+ 
+ for itme in list
+ 
+ loops and so on
     
-    
-    
+   in can also be used in dictionaries:
+   
+   d={}
+   
+   34 in d.keys()
+   ---> False
+   
+   --------------------------------------------------------------
+   min(list)
+   max(list)
+   
+   
