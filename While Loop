@@ -1,0 +1,21 @@
+While is the second loop condiion in python:
+
+while(condition)
+{
+}
+else:
+output(statement)
+
+else command can be used in while but in pythin only.
+
+The most important keywords in loops:
+
+Continue,
+Break,
+pass
+
+Break: Break out of the current closest enclosig loop.
+Continue: Goes to the top of the closest enclosing loop.
+pass: Does nothing at all. complete;y out of loop 
+doent let it to process
+
