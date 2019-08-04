@@ -1,0 +1,21 @@
+from random import and package
+
+from______import _________package
+
+AFTER THAT you can use their functions:
+
+shuffle: shuffling a list.
+
+randingt to graab a random integer
+
+eg:
+
+randint(0,100)
+
+will give you a random number.
+
+input fucntion
+
+input('eneter here')
+
+input automaticaaly will be string you can change itn by defining a type
