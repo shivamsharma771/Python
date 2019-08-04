@@ -1,0 +1,21 @@
+List compherehensives:
+
+mystring = 'hello'
+
+mylist = []
+
+for letter in ystring:
+  mylist.append(letter) ---> creating the list
+  
+  or
+  
+  mylist = [letter for leter in mystring ]
+  
+  
+  x for x in 'word'
+  
+  create  a list comprehensions
+  
+  resuts = [x if x%2 else ODD for x in range(0,11
+)]
+
