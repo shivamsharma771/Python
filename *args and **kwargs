@@ -1,0 +1,30 @@
+*args  - can add any number of arguments in a tuple like this:
+(*args):
+
+Syntax:
+
+Def function (*args):
+    Return sum(args)*0.05
+or 
+
+print(args)
+
+function(1,2,4,3,2)
+
+(1,2,4,3,2)
+
+infinite number of tuples.
+
+
+
+(**KWARGS):
+
+this function is use to generate a dictionary:
+
+
+def tin(**kwargs):
+    print(kwargs)
+    
+ tin(ft='ggg',jhv='gfy')
+                  
+{'ft': 'ggg', 'jhv': 'gfy'}
